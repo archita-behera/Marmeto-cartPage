@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="icon" href="images/marmeto.png" type="images/marmeto.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="navbar-left">
+        <img src="images/marmeto.png" alt="Marmeto" class="navbar-logo">
+        <span class="brand-name">Marmeto</span>
+      </div>
+      <nav class="navbar-center">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="navbar-right">
+        <a href="#" class="icon"><i class="fas fa-search"></i></a> 
+        <a href="#" class="icon"><i class="far fa-heart"></i></a> 
+        <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a> 
+      </div>
+
+
+    </div>
+  </header>
+
+
+
+  <div class="cart-section">
+    <div class="logo-section">
+      <img src="images/marmeto.png" alt="Marmeto" class="marmeto-logo">
+      <h1>Cart</h1>
+      <div class="breadcrumbs"><span style="color: black;">Home  &gt;</span> Cart</div>
+    </div>
+
+  </div>
+
+  <div class="cart-container">
+    <div class="cart-items-table">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="cart-items">
+        </tbody>
+      </table>
+    </div>
+
+    <div class="cart-totals">
+      <h2>Cart Totals</h2>
+      <p>Subtotal: <span id="subtotal">₹0</span></p>
+      <p>Total: <span id="total" style="color: #b88e2f;">₹0</span></p>
+      <button id="checkout-btn">Check Out</button>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="footer-icons">
+      <div class="footer-item">
+        <img src="images/trophy.png" alt="High Quality">
+        <div>
+          <h4>High Quality</h4>
+          <p>Crafted from top materials</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <img src="images/warranty.png" alt="Warranty Protection">
+        <div>
+          <h4>Warranty Protection</h4>
+          <p>Over 2 years</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <img src="images/free-shipping.png" alt="Free Shipping">
+        <div>
+          <h4>Free Shipping</h4>
+          <p>Order over 150 $</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <img src="images/support.png" alt="24/7 Support">
+        <div>
+          <h4>24/7 Support</h4>
+          <p>Dedicated Support</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
