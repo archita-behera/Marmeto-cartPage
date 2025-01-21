@@ -11,6 +11,12 @@ const subtotalElement = document.getElementById("subtotal");
 const totalElement = document.getElementById("total");
 let cart = [];
 
+document.getElementById("hamburger").addEventListener("click", function () {
+  const navbarCenter = document.querySelector(".navbar-center");
+  navbarCenter.classList.toggle("show");
+});
+
+
 async function fetchCartData() {
   try {
     loader.style.display = "block";
